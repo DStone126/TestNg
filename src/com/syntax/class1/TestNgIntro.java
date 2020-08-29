@@ -22,5 +22,6 @@ public class TestNgIntro {
 	@Test
 	public void testFour() {
 		System.out.println("I'm test 4");
-	}
+	System.out.println("u");
+	}//all test methods will get executed in alphabetical order
 }

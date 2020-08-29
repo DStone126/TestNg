@@ -1,29 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="46" started-at="2020-08-29T11:20:09 EDT" finished-at="2020-08-29T11:20:09 EDT">
+  <suite name="Default suite" duration-ms="42" started-at="2020-08-29T12:45:10 EDT" finished-at="2020-08-29T12:45:10 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="46" started-at="2020-08-29T11:20:09 EDT" finished-at="2020-08-29T11:20:09 EDT">
-      <class name="com.syntax.class1.TestNgIntro">
-        <test-method status="PASS" signature="testFour()[pri:0, instance:com.syntax.class1.TestNgIntro@7b49cea0]" name="testFour" duration-ms="7" started-at="2020-08-29T11:20:09 EDT" finished-at="2020-08-29T11:20:09 EDT">
+    <test name="Default test" duration-ms="42" started-at="2020-08-29T12:45:10 EDT" finished-at="2020-08-29T12:45:10 EDT">
+      <class name="com.syntax.class1.Task">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.syntax.class1.Task@5c5a1b69]" name="beforeClass" is-config="true" duration-ms="7" started-at="2020-08-29T12:45:10 EDT" finished-at="2020-08-29T12:45:10 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testFour -->
-        <test-method status="PASS" signature="testOne()[pri:0, instance:com.syntax.class1.TestNgIntro@7b49cea0]" name="testOne" duration-ms="0" started-at="2020-08-29T11:20:09 EDT" finished-at="2020-08-29T11:20:09 EDT">
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.syntax.class1.Task@5c5a1b69]" name="before" is-config="true" duration-ms="0" started-at="2020-08-29T12:45:10 EDT" finished-at="2020-08-29T12:45:10 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOne -->
-        <test-method status="PASS" signature="testThree()[pri:0, instance:com.syntax.class1.TestNgIntro@7b49cea0]" name="testThree" duration-ms="2" started-at="2020-08-29T11:20:09 EDT" finished-at="2020-08-29T11:20:09 EDT">
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.syntax.class1.Task@5c5a1b69]" name="test1" duration-ms="6" started-at="2020-08-29T12:45:10 EDT" finished-at="2020-08-29T12:45:10 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testThree -->
-        <test-method status="PASS" signature="testTwo()[pri:0, instance:com.syntax.class1.TestNgIntro@7b49cea0]" name="testTwo" duration-ms="1" started-at="2020-08-29T11:20:09 EDT" finished-at="2020-08-29T11:20:09 EDT">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.syntax.class1.Task@5c5a1b69]" name="after" is-config="true" duration-ms="0" started-at="2020-08-29T12:45:10 EDT" finished-at="2020-08-29T12:45:10 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testTwo -->
-      </class> <!-- com.syntax.class1.TestNgIntro -->
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="before()[pri:0, instance:com.syntax.class1.Task@5c5a1b69]" name="before" is-config="true" duration-ms="0" started-at="2020-08-29T12:45:10 EDT" finished-at="2020-08-29T12:45:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.syntax.class1.Task@5c5a1b69]" name="test2" duration-ms="1" started-at="2020-08-29T12:45:10 EDT" finished-at="2020-08-29T12:45:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="after()[pri:0, instance:com.syntax.class1.Task@5c5a1b69]" name="after" is-config="true" duration-ms="0" started-at="2020-08-29T12:45:10 EDT" finished-at="2020-08-29T12:45:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.syntax.class1.Task@5c5a1b69]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-08-29T12:45:10 EDT" finished-at="2020-08-29T12:45:10 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.syntax.class1.Task -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
