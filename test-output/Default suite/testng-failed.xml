@@ -3,12 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.syntax.class1.TestNgIntro">
+      <class name="com.syntax.class1.HrmsTestCase">
         <methods>
-          <include name="test3"/>
-          <include name="test2"/>
+          <include name="titleValidation"/>
+          <include name="invalidLogin"/>
+          <include name="validLogin"/>
+          <include name="closeBrowser"/>
+          <include name="openBrowser"/>
         </methods>
-      </class> <!-- com.syntax.class1.TestNgIntro -->
+      </class> <!-- com.syntax.class1.HrmsTestCase -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
